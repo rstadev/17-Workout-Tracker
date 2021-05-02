@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true}))
 
 
 //does not work as of now because these routes currently do not export, so the require returns an error. Uncomment when routes are done.
-// require('./routes/home.js')(app);
+require('./routes/home.js')(app);
 // require('./routes/api.js')(app);
 
 app.listen(PORT, () => {
