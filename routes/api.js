@@ -16,6 +16,19 @@ module.exports = (app) => {
     })
   });
 
-  // app.
+  app.post('/api/workouts', (req,res) => {
+    db.Workout.create({})
+    .then(data => res.json(data))
+    .catch(err => {
+      res.json(err)
+    })
+  });
 
+  app.put('/api/workouts/:id', ({body, params} ,res) => {
+    // db.Workout.findOneAndUpdate(
+      // {_id: params.id}
+    // )
+    let id = params.id;
+    console.log(id);
+  })
 };
