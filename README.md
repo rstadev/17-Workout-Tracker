@@ -8,7 +8,7 @@
 
   <!-- Titled description for grading clarity. Will remove after grading -->
   ## Description
-  This project was assigned during the Georgia Tech Full Stack Flex Development Program. The aim of this project was to build a backend for a fitness tracker app with MongoDB. In this projects current state, all html routes work, last exercise will post on dashboard, and api routes are partially finished but not functional. As of this version, the app will not post a new exercise or track exercises. I plan to fix this project up at a later date, but as of now I am submitting this for partial credit. 
+  This project was assigned during the Georgia Tech Full Stack Flex Development Program. The aim of this project was to build a backend for a fitness tracker app with MongoDB. In this projects current state, all html routes work, last exercise will post on dashboard, and api routes are partially finished but not functional. I am not sure where to even begin on the api routes, and I'd like to speak to a tutor and resubmit.
   <br>
 
   ![ReadMeGen Picture](./public/assets/17-wtdemo.png)
