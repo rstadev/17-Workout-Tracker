@@ -10,7 +10,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true}))
 app.use(express.static(path.join(__dirname, 'public')))
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", 
+{ 
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex: true,
+  useFindAndModify: false 
+});
 //does not work as of now because these routes currently do not export, so the require returns an error. Uncomment when routes are done.
 require('./routes/home.js')(app);
 require('./routes/api.js')(app);
