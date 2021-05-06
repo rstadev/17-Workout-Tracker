@@ -30,7 +30,7 @@
 
 
   ## Usage
-  To use this app, click on the heroku app located here: 
+  To use this app, click on the heroku app located here: https://fast-everglades-29957.herokuapp.com/
   <br>
 
   ## License
